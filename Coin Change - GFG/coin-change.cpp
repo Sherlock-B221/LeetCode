@@ -3,7 +3,8 @@
 using namespace std;
 
  // } Driver Code Ends
-class Solution {
+class Solution 
+{
   public:
     long long int count(int S[], int n, int m) {
         vector<vector<long long>> dp(n+1, vector<long long>(m+1));
