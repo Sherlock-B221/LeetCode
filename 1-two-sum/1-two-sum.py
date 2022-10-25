@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-            hash_map = {nums[i]: i for i in range(len(nums))}
+            hash_map = {nums[index]: index for index in range(len(nums))}
             indices = []
 
             for i, num in enumerate(nums):
