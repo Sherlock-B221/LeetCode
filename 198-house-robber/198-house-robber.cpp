@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
 public:
     int recur(vector<int> &nums, vector<int> &dp, int n)
     {
