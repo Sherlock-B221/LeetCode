@@ -56,12 +56,10 @@ class Solution{
     }
 };
 
-// { Driver Code Starts.
-int main() 
-{ 
-    int t;
-    scanf("%d",&t);
-    while(t--)
+int main() { 
+    int z;
+    scanf("%d",&z);
+    while(z--)
     {
         string A,B;
         cin>>A;
@@ -74,4 +72,3 @@ int main()
     }
     return 0; 
 } 
-  // } Driver Code Ends
